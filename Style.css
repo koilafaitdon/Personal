@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Kode+Mono:wght@400..700&display=swap');
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Kode Mono', monospace;
+    overflow: hidden;
+}
+
+html {
+    background: linear-gradient(45deg, #051937, #004d7a, #008793, #00bf72, #a8eb12, #c47e16);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#title {
+    position: relative;
+    color: aliceblue;
+    left: 45.5%;
+    font-size: 300%;
+    font-family: "Calligraffitti", cursive;
+}
+
+#copyright {
+    position: absolute;
+    bottom: 0%;
+    left: 40%;
+}
+
+#discord {
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Kode Mono', monospace;
+    background: linear-gradient(45deg, #7289da, #5865f2, #5bc0de, #4CAF50);
+    background-size: 400% 400%;
+    animation: gradient-discord 10s ease infinite;
+}
+
+#instagram {
+    position: absolute;
+    top: 20%;
+    left: 47.1%;
+    border: none;
+    border-radius: 10px;
+    width: 150px;
+    height: 50px;
+    font-family: 'Kode Mono', monospace;
+    background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d, #f56040, #f77737, #fcaf45, #ffdc80);
+    background-size: 400% 400%;
+    cursor: pointer;
+    animation: gradient-instagram 10s ease infinite;
+}
+
+#youtube {
+    position: absolute;
+    top: 20%;
+    right: 33%;
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    height: 50px;
+    font-family: 'Kode Mono', monospace;
+    background: linear-gradient(45deg, #ff0000, #ff4d4d, #ff3333, #ffffff);
+    background-size: 400% 400%;
+    cursor: pointer;
+    animation: gradient-youtube 10s ease infinite;
+}
+
+@keyframes gradient-youtube {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient-discord {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes gradient-instagram {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
